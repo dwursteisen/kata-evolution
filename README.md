@@ -3,7 +3,7 @@
 Ce Kata se déroule en deux temps.
 
 - Réaliser le Kata en utilisant que l'héritage entre class
-- Refaire le Kata, mais cette fois-ci en n'utilisant jamais l'héritage entre class
+- Refaire le Kata, mais cette fois-ci en n'utilisant jamais l'héritage entre class (ne pas utiliser le mot clé `extends`)
 
 ## Prologue
 
@@ -13,14 +13,14 @@ Vous tenez le rôle de `Maker` : vous allez devoir créer différentes class pour r
 
 ## Dans quel ordre s'est créé notre univers ?
  
-Notre univers, tout comme Rome, ne s'est pas fait en 1 jours, mais plutôt en une semaine.
+Notre univers, tout comme Rome, ne s'est pas fait en 1 jour, mais plutôt en une semaine.
 
-- Le 1er jour, on créa un oiseau, ayant une méthode `volePetitOiseauVole`
-- Le 2nd jour, on créa un cheval, ayant une méthode `opAuTrot`
+- Le 1er jour, on créa un oiseau, ayant une méthode `vole`
+- Le 2nd jour, on créa un cheval, qui est un équidé, ayant une méthode `trot`
 - Le 3ème jour, on créa un canard, qui est un oiseau
 - Le 4ème jour, on créa une autruche qui est une _Struthioniforme_ (oiseau ne sachant pas voler)
-- Le 5ème jour, on créa un zèbre, qui est un équidé, avec des rayures et donc une méthode `ellesSontJoliesMesRayures`
-- Le 6ème jour, on créa une licorne, équidé ayant une méthode `elleEstBelleMaCorne`
+- Le 5ème jour, on créa un zèbre, qui est un équidé, avec des rayures et donc une méthode `rayures`
+- Le 6ème jour, on créa une licorne, équidé ayant une méthode `corne`
 - Le 7ème jour, on créa l'_unicorne_ : une licorne (équidé ayant une corne donc) qui sait voler
 
 ## Retrospective
@@ -28,7 +28,11 @@ Notre univers, tout comme Rome, ne s'est pas fait en 1 jours, mais plutôt en une
 - Quels ont été les problèmes que vous avez rencontré lors de la création de votre univers ?
 - Comment les avez-vous surmonté ?
 
+## Variantes 
 
+- Utiliser de préférence les `default methods` de Java 8
+- Utiliser uniquement de la composition
+- utiliser un mix de tout
 
                    /
                ,._/
